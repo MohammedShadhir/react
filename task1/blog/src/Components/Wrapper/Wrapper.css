@@ -1,23 +1,32 @@
+.Wrapper {
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+
+
+}
+
 .Wrapper_Header {
     width: 100%;
-    height: 10vh;
+    height: 20vh;
+
 }
 
 .Wrapper_Cart {
 
     display: flex;
     flex-wrap: wrap;
-    overflow: scroll;
     justify-content: center;
-    width: 100%;
+    overflow: scroll;
     height: 70vh;
-    background-color: rgb(245, 236, 236);
-    padding-top: 100px;
-    gap: 100px;
+    align-items: center;
+    gap: 20px;
+    row-gap: 200px;
+
 }
 
 .Footer {
     width: 100%;
-    height: 20vh;
+    height: 10vh;
     background-color: #D4227D;
 }
